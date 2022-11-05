@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📞Contact page</title>
+</head>
+<body>
+   <form action="mailto:morsalpaiman@gmail.com" method="POST"> 
+   <h2><center>Contact me</center></h2> 
+   <hr size="2">
+   <br>
+   <label for="FN"><strong>Name:</strong></label>
+   <input id="FN" type="text" placeholder="Mohammad" >
+   <label for="LN"><strong>Last Name:</strong></label>
+   <input id="LN" type="text" placeholder="Ahmadi">
+   <br>
+   <br>
+   <label for="R"><strong>What kind of message is this?</strong></label>
+   <select name="reason" id="R">
+   <option value="work">Work message</option>
+   <option value="personal">Personal message</option>
+   <option value="other">Other</option>
+   </select>
+   <br>
+   <br>
+   <label for="YourM">Your message..</label>
+   <br>
+   <textarea placeholder="I contact you to talk about..." name="" id="YourM" cols="60" rows="20"></textarea>
+   <br>
+   <label type="text" value="" for="Email">Wrie your email here:</label>
+    <input id="Email" type="email" value="" placeholder="www.****@example.com">
+    <br>
+    <input type="submit" value="Send">
+    </form>
+</body>
+</html>
